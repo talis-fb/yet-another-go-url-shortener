@@ -2,8 +2,6 @@ module github.com/talis-fb/yet-another-go-url-shortener
 
 go 1.23.2
 
-replace github.com/talis-fb/yet-another-go-url-shortener => ./internal
-
 require (
 	github.com/bytedance/sonic v1.12.3 // indirect
 	github.com/bytedance/sonic/loader v0.2.1 // indirect
